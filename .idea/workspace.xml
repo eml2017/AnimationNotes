@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0bb8f162-cffa-451e-acb2-e5cd58686b6c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BouncingBallFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AnimationFun/BouncingBallPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AnimationFun/BouncingBallPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AnimationFun/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AnimationFun/View.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BouncingBallPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BouncingBallPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BouncingBallTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
