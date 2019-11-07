@@ -18,7 +18,7 @@ public class BouncingBallPanel extends JPanel {
     // Change in graphics over time
     // We need to use a timer
     // It's listener is ActionListener!
-    static final int DELAY = 1000; // Milliseconds (1000 milliseconds = 1 second)
+    static final int DELAY = 10; // Milliseconds (1000 milliseconds = 1 second)
     Timer timer;
 
     public BouncingBallPanel() {
@@ -42,6 +42,18 @@ public class BouncingBallPanel extends JPanel {
         Graphics2D g2 = (Graphics2D) g;
         g2.setColor(Color.RED);
 
+        if (x > getWidth() - DIAMETER) {
+            dx = -Math.abs(dx);
+        }
+        if (y > getHeight() - DIAMETER) {
+            dy = -Math.abs(dy);
+        }
+        if (x < 0) {
+            dx = Math.abs(dx);
+        }
+        if (y < 0) {
+            dy = Math.abs(dy);
+        }
         x += dx;
         y += dy;
 
