@@ -3,10 +3,10 @@ import java.awt.*;
 import java.awt.geom.Ellipse2D;
 
 public class BouncingBallPanel extends JPanel {
-    BouncingBallFrame bouncingBallFrame;
+    View view;
     final int DIAMETER = 40;
 
-    public BouncingBallPanel(BouncingBallFrame bouncingBallFrame) {
+    public BouncingBallPanel(View view) {
         setBackground(Color.WHITE);
     }
 
