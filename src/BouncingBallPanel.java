@@ -42,18 +42,23 @@ public class BouncingBallPanel extends JPanel {
         Graphics2D g2 = (Graphics2D) g;
         g2.setColor(Color.RED);
 
+        // Right bounds
         if (x > getWidth() - DIAMETER) {
             dx = -Math.abs(dx);
         }
+        // Bottom bounds
         if (y > getHeight() - DIAMETER) {
             dy = -Math.abs(dy);
         }
+        // Left bounds
         if (x < 0) {
             dx = Math.abs(dx);
         }
+        // Top bounds
         if (y < 0) {
             dy = Math.abs(dy);
         }
+        // Otherwise, just keep going
         x += dx;
         y += dy;
 
